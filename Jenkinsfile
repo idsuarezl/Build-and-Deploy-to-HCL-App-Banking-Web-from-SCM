@@ -42,5 +42,10 @@ pipeline{
                 ])
             }
         }
+        stage{
+            steps{
+                echo 'Test stage works properly'
+            }
+        }
     }
 }
